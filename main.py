@@ -57,3 +57,9 @@ for d in descriptors:
     else:
         print('%s is NOT a suspect. (%d matches)' %
               (name, num_good_matches))
+
+
+if prime_suspect is not None:
+    print('Prime suspect is %s.' % prime_suspect)
+else:
+    print('There is no suspect.')

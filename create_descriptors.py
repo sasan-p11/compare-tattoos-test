@@ -29,3 +29,5 @@ def create_descriptor(folder , image_path , feature_detector):
 folder = 'tattoos'
 create_descriptors(folder)
 print("///////////////////////////////")
+
+
